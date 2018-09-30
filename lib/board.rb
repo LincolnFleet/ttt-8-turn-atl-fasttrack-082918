@@ -9,18 +9,3 @@ index = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
 
 display_board(index)
-
-def user_input
-  user_input = gets()
-  user_input += 1
-  index_coord = user_input
-end
-
-def valid_move?
-  index_coord >= 1 && index_coord <=9
-  if TRUE
-    
-  else puts "Invalid move"
-    
-end
-
